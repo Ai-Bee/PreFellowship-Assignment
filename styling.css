@@ -1,0 +1,107 @@
+#root{
+   
+}
+
+div.header{
+    display: flex;
+    padding: 1% 5%;
+    justify-content: space-between;
+}
+
+.banner{
+    padding: 3% 15%;
+    height: 80vh;
+    color: #fff;
+    padding-bottom: 20%;
+    background-image: url('./bannerImg.jpg');
+    display: flex;
+}
+
+.banner .texts{
+    text-align: left;
+    width: 60%;
+    padding-top: 10%;
+}
+
+.banner .texts h3{
+    width: 40%;
+    text-transform: capitalize;
+}
+
+
+.banner .theForm{
+    background-color: rgba(114, 108, 108, 0.637);
+    padding-top: 5%;
+    text-align: center;
+    height: fit-content;
+}
+
+.banner .theForm .inputs{
+    width: 100%;
+}
+
+.banner .theForm .inputs input, button[type='submit']{
+    width: 70%;
+    height: 50px;
+    margin-bottom: 15px;
+    outline: none;
+    border:none;
+}
+
+.banner .theForm .inputs input{
+    border-radius: 3px;
+    padding-left: 20px;
+}
+
+.banner .theForm .inputs button[type='submit']{
+    color: #fff;
+    background-color:rgb(51, 233, 51);
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.banner .theForm .inputs button[type='submit']:hover{
+    background-color: rgba(51, 233, 51, 0.548);
+}
+
+.first{
+    display: flex;
+    padding: 5% 13%;
+    text-align: center;
+}
+
+.first > div h6{
+    padding: 10px 1px;
+}
+
+.first > div:nth-of-type(2) {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.first img{
+    max-width: 80px;
+}
+
+section.banner-two{
+    background-color: gainsboro;
+    text-align: center;
+    padding: 5% 15%;
+}
+
+section.banner-two img.pic{
+    border-radius: 50%;
+}
+
+div.stars{
+    padding-top: 10px;
+}
+
+div.stars > img{
+    max-width: 14px !important;
+}
+
+footer{
+    padding: 1% 9%;
+    color: #fff;
+    background-color: rgb(65, 62, 60);
+}
